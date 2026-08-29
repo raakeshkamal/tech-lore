@@ -1,0 +1,83 @@
+# YouTube — channels & must-watch videos
+
+## C++ conferences & channels
+
+- [CppCon](https://www.youtube.com/@CppCon) — the C++ conference archive: Back to Basics, Embedded, perf tracks. Start with Back to Basics if rusty. `cpp`
+- [Meeting C++](https://www.youtube.com/@MeetingCPP) — the other big C++ conference; great keynotes. `cpp`
+- [C++ Weekly with Jason Turner](https://www.youtube.com/@cppweekly) — short, sharp, weekly: one C++ trick per video. `cpp`
+- [CppCon video archive (searchable)](https://cppcon.programmingarchive.com/) — not a channel; the searchable index of all CppCon talks. `cpp`
+
+## Systems / low-level / OS
+
+- [Ben Eater](https://www.youtube.com/@BenEater) — builds an 8-bit breadboard computer; the best "how computers actually work" series ever made. `hardware`
+- [Low Level](https://www.youtube.com/@LowLevelTV) — C/C++ internals, memory bugs, assembly, security-adjacent. `cpp` `systems`
+- [javidx9 (OneLoneCoder)](https://www.youtube.com/@javidx9) — NES emulator from scratch, Code-It-Yourself series; C++ craft with zero fluff. `cpp` `systems`
+- [Creel](https://www.youtube.com/@Creel) — OS dev, x86-64 assembly, kernel series. `systems` `asm`
+- [Write your own Operating System](https://www.youtube.com/@writeyourownoperatingystem) — long-form OS dev course on real hardware. `systems` *(verify handle)*
+- [Tsoding Daily](https://www.youtube.com/@TsodingDaily) — recreational programming: compilers, graphics, C/Rust from scratch. `systems`
+- [jdh](https://www.youtube.com/@jdh) — C software rendering, creative low-level projects. `c` `graphics`
+- [Oxide Computer](https://www.youtube.com/@oxidecomputer) — Oxide and Friends / On the Metal: firmware, servers, hardware engineering. `firmware` `systems`
+
+## Performance / trading
+
+- [P99 CONF](https://www.youtube.com/@p99conf) — dedicated low-latency conference (free, online); kernel-bypass, tail latency, Rust/C++. `low-latency` `perf`
+
+## Databases / distributed systems
+
+- [Ben Dicken](https://www.youtube.com/@benjdicken) — PlanetScale educator; database internals explained interactively (B-trees, LSM, WAL, sharding, consensus). Streams = book club (Database Internals) + paper reviews. `db` `dist-sys`
+  - **"My favorite database papers"** (stream) — guided tour + on-screen reading list → see papers.md
+  - **"Make computers FAST (Systems Performance chapter 1)"** — walkthrough of Brendan Gregg's book opening
+  - **"A peek inside the CLOUD (how AWS and GCP work)"**
+  - **"The hardest problem in databases: consensus" / "The ICONIC Database Consensus Algorithm"** — Raft for engineers
+- [CMU Database Group (Andy Pavlo)](https://www.youtube.com/@CMUDatabaseGroup) — the 15-445 database course; also @-advanced series. `db`
+- [MIT 6.824 Distributed Systems (Spring 2020)](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) — Raft lectures; the canonical dist-sys course. `dist-sys`
+- [Strange Loop (archive)](https://www.youtube.com/@strangeloop) — decade of the best conference talks anywhere; conference ended 2023, archive remains. `misc`
+
+## Security / reverse engineering
+
+- [LiveOverflow](https://www.youtube.com/@LiveOverflow) — binary exploitation explained visually; the standard. `sec`
+- [Computerphile](https://www.youtube.com/@Computerphile) — breadth: crypto, memory, protocols, with guest experts. `cs`
+- [DEF CON Conference](https://www.youtube.com/@DEFCONConference) — full talk archive. `sec`
+- [Chaos Computer Club (CCC)](https://www.youtube.com/@cccen) — 37c3 etc.; deep systems + society talks. `sec`
+
+## CS foundations / visualization
+
+- [Sebastian Lague](https://www.youtube.com/@SebastianLague) — cinematic algorithm deep dives (ray tracing, pathfinding). `algorithms`
+- [Reducible](https://www.youtube.com/@Reducible) — compression, hashing, CS concepts with beautiful animations. `algorithms`
+- [MIT OpenCourseWare](https://www.youtube.com/@mitocw) — full university courses, free. `cs`
+
+## Electronics (hardware-adjacent)
+
+- [EEVblog](https://www.youtube.com/@EEVblog) — test gear, teardowns, design fundamentals. `hardware`
+- [w2aew](https://www.youtube.com/@w2aew) — analog electronics on a whiteboard; scopes and signals explained properly. `hardware`
+- [Marco Reps](https://www.youtube.com/@MarcoReps) — instrument teardowns with wit. `hardware`
+
+## Commentary / keeping current (not tutorials)
+
+- [ThePrimeagen](https://www.youtube.com/@ThePrimeagen) — C++/Rust ex-Netflix; strong opinions, good gatekeeping radar. `commentary`
+- [Fireship](https://www.youtube.com/@Fireship) — 100-second tech context; skip the hype, keep the vocabulary. `commentary`
+
+## Must-watch individual talks
+
+- **Mike Acton — "Data-Oriented Design and C++" (CppCon 2014)** — the most important perf talk for C++ devs; attack your abstractions. `cpp` `perf`
+- **Chandler Carruth — "There Are No Zero-Cost Abstractions" (Meeting C++ 2017 keynote)** — and its sibling "Optimizing the Emergent Structures of C++" (CppCon 2014). `cpp` `perf`
+- **Matt Godbolt — "What Has My Compiler Done for Me Lately?" (CppCon 2016)** — compiler explorer as a way of life. `cpp` `perf`
+- **Fedor Pikus — "High-Performance Concurrency in C++" (CppCon 2025)** — modern concurrency under contention. `cpp` `low-latency`
+- **Sandor Dargo — "Clean code! Horrible performance?" (CppCon 2025)** — when abstractions cost cycles. `cpp` `perf`
+- **Casey Muratori — "Clean Code, Horrible Performance" (2024)** — the anti-pattern audit; pair with his Performance-Aware Programming series (Molly Rocket). `perf` `cpp`
+- **Rich Hickey — "Simple Made Easy" (Strange Loop 2011)** — vocabulary for complexity; apply far beyond Clojure. `culture`
+- **Bret Victor — "Inventing on Principle" (CUSEC 2012)** — tools, immediacy, and why dev experience matters. `tools`
+- **Martin Kleppmann — "Turning the Database Inside-Out" (Strange Loop 2014)** — log-centric data systems thinking. `db` `dist-sys`
+- **John Ousterhout — "A Philosophy of Software Design" (Google Tech Talk 2018)** — deep vs shallow modules. `design`
+- **Bryan Cantrill — "Platform Values in the Era of Cloud Computing" (2017)** — engineering values as architecture. `culture`
+
+## Unverified — to vet
+
+*(inbox)*
+- Ben Dicken's "$165k Fable bill to rewrite Bun in Rust" — commentary piece, vet for canon list.
+- Ben Dicken's "Postgres vs MySQL. Who has the better architecture?" + remaining book-club streams (ch. 8–12) — vet individually.
+- C++Now (formerly BoostCon) channel — find handle. `cpp`
+- Jane Street tech-talks channel. `ocaml`
+- "Meeting C++ 2025 playlist" — vet new talks.
+- Optiver/IMC/HRT public tech talks — vet for low-latency section.
+- ACCU conference talks (Julius Zukauskas on throughput/latency, ACCU 2025). `cpp` `perf`
