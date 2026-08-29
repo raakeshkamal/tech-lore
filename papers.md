@@ -8,6 +8,14 @@ Seed sources: Ben Dicken's stream ["My favorite database papers"](https://www.yo
 - [Designing Data-Intensive Applications — Martin Kleppmann](https://dataintensive.net/) — the modern dist-sys/database bible; Ben did a read-along of ch. 1–2. `dist-sys` `db`
 - [Database Internals — Alex Petrov](https://www.databass.dev/) — deep dive into storage engines + distributed databases; Ben Dicken's book club reads this one cover to cover. `db` `storage`
 - [The Art of Computer Systems Performance Analysis — Raj Jain](https://www.rajjain.com/) — how to benchmark honestly; the statistics behind perf work. `perf` *(canon; heavy)*
+- [Structure and Interpretation of Computer Programs — Abelson & Sussman](https://sarabander.github.io/sicp/) — the philosophy course disguised as a programming manual; bigboxSWE: "the greatest book I've ever read, programming or not". Free HTML/PDF. `compilers` `culture` *(via @bigboxSWE)*
+- [Computer Systems: A Programmer's Perspective — Bryant & O'Hallaron](https://csapp.cs.cmu.edu/) — C down to assembly, machine instructions, caches, virtual memory; "unlocks your third eye" — you stop pretending to know what memory is. `perf` `systems` *(via @bigboxSWE)*
+- [The Practice of Programming — Kernighan & Pike](https://www.informit.com/store/practice-of-programming-9780201615869) — Unix-era fundamentals (style, algorithms, debugging, portability) that still transfer to any language; bigboxSWE's "the streets won't forget" pick. `c` `culture` *(via @bigboxSWE)*
+- [Programming Pearls — Jon Bentley](https://www.informit.com/store/programming-pearls-9780201657883) — a collection of essays on cracking problems with insight instead of code volume; leetcode, but with soul. `algorithms` *(via @bigboxSWE)*
+- [Coders at Work — Peter Seibel](https://www.codersatwork.com/) — 15 long interviews (Knuth, Norvig, Armstrong et al.) on how great programmers actually think and work; full of trinkets you can't find anywhere else. `culture` *(via @bigboxSWE)*
+- [Crafting Interpreters — Bob Nystrom](https://craftinginterpreters.com/) — build two complete interpreters (tree-walker + bytecode VM) with wit and zero hand-holding; THE build-your-own-language book. Free online. `compilers` *(via @bigboxSWE)*
+- [The Linux Command Line — William Shotts](https://linuxcommand.org/tlcl.php) — the structured way to actually learn the shell; free PDF, recommended for people who'd otherwise learn bash from vibes. `linux` *(via @bigboxSWE)*
+- [Pro Git — Chacon & Straub](https://git-scm.com/book) — THE git book, free; "read it like a novel" per bigboxSWE and git stops being incantations. `git` *(via @bigboxSWE)*
 
 ## Distributed systems & consensus papers
 
@@ -47,6 +55,8 @@ The on-screen list is in the stream itself (JQCUE1rTsIk); the ones captured abov
 ## Unverified — to vet
 
 *(inbox)*
+- Nick Blundell — [Writing a Simple Operating System — from Scratch](https://github.com/rprouse/PR-DOS) (free PDF draft, ~2010) — cited by bigboxSWE as the OS-from-scratch resource; draft never finished, pin a stable PDF link before canonizing. `os`
+- Non-technical books bigboxSWE leans on: *The War of Art* (Steven Pressfield, "resistance") and *Play* (Stuart Brown & Christopher Vaughan, play as survival) — decide if this shelf takes non-technical at all.
 - Megastore, Percolator, F1 — the Google trio; find clean PDF links before canonizing.
 - Socrates: The New SQL Server in the Cloud (SIGMOD 2019).
 - H-Store / Hekaton — main-memory engine papers.

@@ -23,6 +23,11 @@
 ## Culture & shipping
 
 - [Choose Boring Technology — Dan McKinley](https://mcfunley.com/choose-boring-technology) — innovation tokens; the single most useful engineering-decision heuristic. `culture`
+- [The Next Two Years of Software Engineering — Addy Osmani](https://addyosmani.com/blog/next-two-years) — junior-dev hiring collapse vs. rebound scenarios and how to hedge both; the post behind bigboxSWE's "death of junior developers" video. `culture` `ai` *(via @bigboxSWE)*
+- [New trend: extreme hours at AI startups — The Pragmatic Engineer](https://blog.pragmaticengineer.com/new-trend-extreme-hours-at-ai-startups) — 996 migrating from China to SF AI startups (Cognition et al., 80+ hr weeks); cited in bigboxSWE's "developers are exhausted". `culture` *(via @bigboxSWE)*
+- [Ghostty Is Leaving GitHub — Mitchell Hashimoto](https://mitchellh.com/writing/ghostty-leaving-github) — 18 years of daily GitHub use ends over reliability decay; what platform rot does to open source. `culture` `foss` *(via @bigboxSWE)*
+- [How Much Are GitHub Stars Worth to You? — The Guild](https://the-guild.dev/blog/judging-open-source-by-github-stars) — they actually bought fake GitHub stars (€8/100, premium tiers, Stripe receipts) and show how Astronomer grades them A–E; source for bigboxSWE's dark-side-of-GitHub video. `sec` `culture` *(via @bigboxSWE)*
+- [AI fatigue is real and nobody talks about it — Siddhant Khare](https://siddhantkhare.com/writing/ai-fatigue-is-real) — the FOMO treadmill, tool churn, and making peace with AI as a 70%-useful first draft; the post behind bigboxSWE's anti-AI-fatigue video. `ai` `culture` *(via @bigboxSWE)*
 - [How I ship projects at big tech companies — Sean Goedecke](https://www.seangoedecke.com/) — the shipping playbook behind HN's top posts of 2024-25. `culture` *(link to blog; post is 2024)*
 - [Writing a tech blog people want to read — Sean Goedecke](https://www.seangoedecke.com/) — meta but practical if this repo ever goes public. `culture` `writing`
 
@@ -47,6 +52,7 @@
 ## Unverified — to vet
 
 *(inbox — promote after reading, with URL)*
+- Cited on-screen in @bigboxSWE videos but never named aloud — recover from video descriptions if possible: the TypeScript-fanboys takedown article ("Toxic Programming Fans"), the job-postings-by-title blog with the systems/ML-engineer graph ("The programming skill that will dominate this era", an a16z chart), and the Team PCP GitHub-hack malware analysis thread ("The time GitHub got hacked").
 - Shopify Black Friday / BFCM engineering posts — Ben Dicken cites their traffic-scale stats in "Why BIGGER Servers won't save you." `scale`
 - Jepsen analyses — pick 1–2 representative (e.g. MongoDB, Elasticsearch) to canonize. `dist-sys`
 - Cloudflare rate-limiting / HTTP/3 deep dives — pick the best 2. `net`

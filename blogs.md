@@ -69,6 +69,9 @@
 - [Matt Might](https://mattmight.net/) — CS theory made accessible (parsers, filters, grad-school lore). `algorithms`
 - [James Hague — Programming in the 21st Century](https://prog21.dadgum.com/) — anti-complexity essays; Erlang-era wisdom. `culture`
 - [Sean Goedecke](https://www.seangoedecke.com/) — Staff eng at GitHub; how big-company software actually gets built. `culture` `career`
+- [Mitchell Hashimoto](https://mitchellh.com/writing/) — Ghostty/Vault/Terraform author; rare but deep posts on Zig, terminals, agents, and open-source craft (see "Ghostty is leaving GitHub"). `systems` `foss` *(via @bigboxSWE)*
+- [Addy Osmani](https://addyosmani.com/blog/) — Chrome perf lead; AI-era software engineering, velocity, and hiring essays. `perf` `ai` *(via @bigboxSWE)*
+- [The Pragmatic Engineer (Gergely Orosz)](https://blog.pragmaticengineer.com/) — the industry-insider blog/newsletter: Big Tech realities, hiring, salaries, 996-at-startups. `culture` `career` *(via @bigboxSWE)*
 
 ## AI / ML
 

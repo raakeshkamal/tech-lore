@@ -16,6 +16,8 @@
 - [Write your own Operating System](https://www.youtube.com/@writeyourownoperatingystem) — long-form OS dev course on real hardware. `systems` *(verify handle)*
 - [Tsoding Daily](https://www.youtube.com/@TsodingDaily) — recreational programming: compilers, graphics, C/Rust from scratch. `systems`
 - [jdh](https://www.youtube.com/@jdh) — C software rendering, creative low-level projects. `c` `graphics`
+- [Jon Gjengset](https://www.youtube.com/@jonhoo) — Crust of Rust: lifetimes, async, pinning, trait objects — deep Rust internals live-coded. The serious Rust channel. `rust` `systems` *(via @bigboxSWE)*
+- [No Boilerplate](https://www.youtube.com/@NoBoilerplate) — fast, essayistic Rust-and-tools advocacy; propaganda in the best sense of the word. `rust` *(via @bigboxSWE)*
 - [Oxide Computer](https://www.youtube.com/@oxidecomputer) — Oxide and Friends / On the Metal: firmware, servers, hardware engineering. `firmware` `systems`
 
 ## Performance / trading
@@ -56,6 +58,7 @@
 
 - [ThePrimeagen](https://www.youtube.com/@ThePrimeagen) — C++/Rust ex-Netflix; strong opinions, good gatekeeping radar. `commentary`
 - [Fireship](https://www.youtube.com/@Fireship) — 100-second tech context; skip the hype, keep the vocabulary. `commentary`
+- [bigboxSWE](https://www.youtube.com/@bigboxSWE) — programming-culture commentary (vibe coders, GitHub drama, 90s programmers) with memes; the two book videos — "Programming books that rewired my brain" (SICP, CS:APP, DDIA) and "Criminally Underrated Programming Books" (Practice of Programming, Programming Pearls, Coders at Work) — double as reading lists; several entries in this repo were mined from his transcripts. `commentary` `culture`
 
 ## Must-watch individual talks
 
@@ -69,11 +72,14 @@
 - **Bret Victor — "Inventing on Principle" (CUSEC 2012)** — tools, immediacy, and why dev experience matters. `tools`
 - **Martin Kleppmann — "Turning the Database Inside-Out" (Strange Loop 2014)** — log-centric data systems thinking. `db` `dist-sys`
 - **John Ousterhout — "A Philosophy of Software Design" (Google Tech Talk 2018)** — deep vs shallow modules. `design`
+- **Kathy Sierra — "Building the Minimum Badass User" (Business of Software 2012)** — skill acquisition and deliberate practice: perfect practice makes perfect, surround yourself with the best examples; the talk bigboxSWE credits for his training philosophy. `culture` `design`
 - **Bryan Cantrill — "Platform Values in the Era of Cloud Computing" (2017)** — engineering values as architecture. `culture`
 
 ## Unverified — to vet
 
 *(inbox)*
+- Gabe Newell — LinuxConf AU 2013 keynote on why Valve ships on Linux (vendor lock-in economics) — cited in bigboxSWE's "You Can't Beat Linux"; vet for must-watch. `linux`
+- Kathy Sierra — exact talk bigboxSWE showed may be the BoS 2012 one or the Mind the Product 2014 version ("Building Badass Users"); pin canonical YouTube link. `culture`
 - Ben Dicken's "$165k Fable bill to rewrite Bun in Rust" — commentary piece, vet for canon list.
 - Ben Dicken's "Postgres vs MySQL. Who has the better architecture?" + remaining book-club streams (ch. 8–12) — vet individually.
 - C++Now (formerly BoostCon) channel — find handle. `cpp`
