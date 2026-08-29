@@ -11,6 +11,7 @@ We don't try to be exhaustive. The exhaustive lists already exist (see Prior art
 | `blogs.md` | Blog *sites* — company engineering blogs + individual blogs |
 | `posts.md` | Individual *posts/talks* worth re-reading — the canon |
 | `papers.md` | Papers & books — the reading shelf (seeded from Ben Dicken's picks + canon) |
+| `embedded-robotics.md` | The day-job shelf — firmware, RTOS, embedded Linux, hardware, robotics |
 | `youtube.md` | Channels + specific must-watch videos |
 
 ## Entry format
@@ -43,6 +44,12 @@ Blog lists:
 - [tuan3w/awesome-tech-rss](https://github.com/tuan3w/awesome-tech-rss) — RSS-first.
 
 YouTube lists:
+
+Domain-specific (embedded & robotics):
+- [nhivp/Awesome-Embedded](https://github.com/nhivp/Awesome-Embedded) · [embedded-boston/awesome-embedded-systems](https://github.com/embedded-boston/awesome-embedded-systems) · [fkromer/awesome-embedded-linux](https://github.com/fkromer/awesome-embedded-linux) · [rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust)
+- [ahundt/awesome-robotics](https://github.com/ahundt/awesome-robotics) · [Tinker-Twins/Robotics-Resources](https://github.com/Tinker-Twins/Robotics-Resources) · [natnew/awesome-physical-ai](https://github.com/natnew/awesome-physical-ai)
+
+General YouTube lists:
 - [JoseDeFreitas/awesome-youtubers](https://github.com/JoseDeFreitas/awesome-youtubers) — tech teaching channels, playlist-level detail.
 - [ErikCH/DevYouTubeList](https://github.com/ErikCH/DevYouTubeList) — huge, dev channels by language/topic.
 - [epoyraz/Awesome-Youtube-Channels](https://github.com/epoyraz/Awesome-Youtube-Channels) — language/conference channels (CppCon, Meeting C++, CCC…).
