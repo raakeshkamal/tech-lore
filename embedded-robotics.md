@@ -25,6 +25,10 @@ The day-job file. Firmware, RTOS, embedded Linux, silicon, robots. (Memfault Int
 - [Barr Group](https://www.barrgroup.com/) — Michael Barr; embedded coding standards, safety-critical practice. `embedded` `safety`
 - [Shawn Hymel](https://www.shawnhymel.com/) — Zephyr, KiCad, wireless; the DigiKey Zephyr series author. `embedded` `tutorials`
 
+## Courses / training
+
+- [Nordic Semiconductor Academy](https://academy.nordicsemi.com/all-courses/) — free vendor training portal; the DevAcademy nRF Connect SDK tracks (fundamentals → intermediate, BLE, cellular IoT) are the best hands-on Zephyr curriculum — every lesson runs on real Nordic DKs. `embedded` `rtos` `ble`
+
 ## Embedded Linux / kernel
 
 - [Bootlin](https://www.bootlin.com/blog/) — kernel, device trees, mainlining; their training materials are free and excellent. `embedded-linux` `kernel`
