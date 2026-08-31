@@ -12,6 +12,7 @@ We don't try to be exhaustive. The exhaustive lists already exist (see Prior art
 | `posts.md` | Individual *posts/talks* worth re-reading — the canon |
 | `papers.md` | Papers & books — the reading shelf (seeded from Ben Dicken's picks + canon) |
 | `embedded-robotics.md` | The day-job shelf — firmware, RTOS, embedded Linux, hardware, robotics |
+| `learning.md` | The meta shelf — learning-resource indexes + free courses/course material per topic |
 | `youtube.md` | Channels + specific must-watch videos |
 
 ## Entry format
