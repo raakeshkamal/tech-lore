@@ -1,6 +1,6 @@
 # Learning resources — meta-indexes & free course material
 
-The meta shelf: awesome-lists for learning, university courses with fully free materials, free books and hands-on curricula — one per topic, mapped to the other files' sections. **Provenance: swept + URL-verified 2026-08-31 (GitHub API + HTTP), but content not yet skim-vetted** — entries still owe the usual read-before-promotion pass. Cross-links: courses with YouTube channels belong here *and* in `youtube.md`; books on this shelf that are "canon readings" may migrate to `papers.md`.
+The meta shelf: awesome-lists for learning, university courses with fully free materials, free books and hands-on curricula — one per topic, mapped to the other files' sections. **Provenance: swept + URL-verified 2026-08-31 (GitHub API + HTTP), but content not yet skim-vetted** — entries still owe the usual read-before-promotion pass. The Security/RE shelf got a second deep sweep (URL-verified via live search; same skim-vet debt). Cross-links: courses with YouTube channels belong here *and* in `youtube.md`; books on this shelf that are "canon readings" may migrate to `papers.md`.
 
 ## Meta — lists of lists (all of CS)
 
@@ -86,12 +86,29 @@ The meta shelf: awesome-lists for learning, university courses with fully free m
 - [pwn.college (ASU)](https://pwn.college/) — free hands-on cybersecurity education platform: 1000+ challenges across shellcode, RE, memory corruption, kernel; powers ASU's actual curriculum. `sec`
 - [OpenSecurityTraining2](https://ost2.fyi/) — free deep-dives: x86-64 architecture, debuggers (Ghidra/Simics), C++ reversing, TPM, SPI — "world's deepest cybersecurity training, free is a bonus". `sec` `re`
 - [awesome-ctf (apsdehal)](https://github.com/apsdehal/awesome-ctf) — ~12k★; CTF frameworks, tools, resources. `sec`
-- [Nightmare (guyinatuxedo)](https://github.com/guyinatuxedo/nightmare) — ~3k★; binary-exploitation curriculum built from CTF challenges, ordered by technique. `sec`
+- [Nightmare (guyinatuxedo)](https://guyinatuxedo.github.io/) — intro binary-exploitation/RE course built from 90+ CTF challenges, laid out linearly by technique (stack overflows → format strings → shellcoding → heap → RE), each with a full hand-holding writeup; all open-source tooling ([repo](https://github.com/guyinatuxedo/nightmare), ~3k★). `sec` `re`
 - [awesome-reverse-engineering (wtsxDev)](https://github.com/wtsxDev/reverse-engineering) — ~10k★; RE resources across platforms. `sec` `re`
 - [awesome-malware-analysis (rshipp)](https://github.com/rshipp/awesome-malware-analysis) — ~14k★; malware analysis tools, papers, resources. `sec`
 - [OverTheWire Wargames](https://overthewire.org/wargames/) — free SSH wargames (Bandit et al.); the classic Linux/CLI security on-ramp. `sec` `linux`
 - [CryptoHack](https://cryptohack.org/) — free crypto challenges: learn modern cryptography by breaking it. `sec`
 - [picoCTF](https://picoctf.org/) — CMU's free year-round beginner CTF with a full learning platform. `sec`
+- [RPISEC — Modern Binary Exploitation](https://github.com/RPISEC/MBE) — ~6k★; full university course (lectures, labs, Warzone VM) from x86 RE through defeating canaries/DEP/ASLR/RELRO; student-run, entirely free. `sec` `course`
+- [RPISEC — Malware Analysis](https://github.com/RPISEC/Malware) — the sister course: static/dynamic malware analysis, packing, deobfuscation, forensics, with lab VM. `sec` `malware` `course`
+- [CTF Field Guide (Trail of Bits)](https://trailofbits.github.io/ctf/) — free self-guided course distilling vuln discovery, exploitation, tooling and tradecraft into CTF-shaped workouts. `sec` `meta`
+- [Azeria Labs — ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/) — the canonical free ARM RE/exploit-dev tutorial series (7 parts); matured into the *Blue Fox* book (paid). `sec` `re` `arm`
+- [OWASP MASTG](https://mas.owasp.org/MASTG/) — ~13k★; the free mobile bible: iOS/Android internals, static/dynamic analysis, tampering and anti-RE resilience testing. `sec` `mobile` `re`
+- [Corelan](https://www.corelan.be/) — two decades of free Windows exploit-dev tutorials (stack → SEH → egghunters → ROP/DEP → heap), now getting Win11-x64 video re-dos. `sec` `exploitation` `windows`
+- [Malware Unicorn — RE101/RE102](https://malwareunicorn.org/workshops/re101.html) — free hands-on Windows malware RE workshops: lab setup → triage → static/dynamic → anti-RE, packing, VM evasion. `sec` `malware`
+- [PMAT labs (HuskyHacks)](https://github.com/HuskyHacks/PMAT-labs) — free-forever labs for Practical Malware Analysis & Triage (course video preview free on YouTube); the friendliest structured on-ramp to malware triage. `sec` `malware`
+- [Sam Bowne — CNIT 126 Practical Malware Analysis](https://samsclass.info/126/126_S25.shtml) — City College of SF's full malware course: slides, videos and hands-on projects built on the *Practical Malware Analysis* book, all free. `sec` `malware` `course`
+- [Exploit Education (Andrew Griffiths)](https://exploit.education/) — the VM lineage that trained a generation: Nebula (Linux privesc) → Protostar/Phoenix (stack, format strings, heap; x86/ARM/aarch64) → Fusion (mitigation bypass). `sec` `exploitation`
+- [ROP Emporium](https://ropemporium.com/) — eight focused challenges (ret2win → ret2csu) teaching return-oriented chaining on x86/ARM/MIPS; the ROP drill yard. `sec` `exploitation`
+- [pwnable.kr](http://pwnable.kr/) / [pwnable.tw](https://pwnable.tw/) — the classic free pwn wargames: kr for approachable reps, tw for serious ROP/heap gauntlets. `sec`
+- [Microcorruption](https://microcorruption.com/) — embedded-security CTF: debug MSP430 smart-lock firmware and break the lock; the best assembly intro disguised as a puzzle game. `sec` `embedded` `re`
+- [crackmes.one](https://crackmes.one/) — ~4.7k user-submitted crackmes with difficulty ratings and writeups; infinite keygen-me reps. `sec` `re`
+- [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/training-exercises.html) — pcap exercises from real infections (Emotet, Qakbot, IcedID…) plus Wireshark tutorials; the free network-forensics gym. `sec` `malware` `dfir`
+- [vx-underground](https://vx-underground.org/) — the largest public malware sample & paper collection; research-grade corpus (detonate only in lab VMs). `sec` `malware`
+- [DFIR Diva — free/affordable malware-RE training index](https://training.dfirdiva.com/listing-category/malware-analysis-and-re) — kept-current meta-list of courses and workshops; restock this shelf from it. `sec` `meta`
 
 ## Electronics / hardware
 
@@ -117,3 +134,10 @@ The meta shelf: awesome-lists for learning, university courses with fully free m
 - Nancy Leveson's STAMP/STPA free course material (MIT) — safety engineering adjacent to the Barr Group entry. `safety`
 - MIT 6.S081 vs 6.1810 numbering — confirm the xv6 course URL stays canonical across semesters.
 - decide: HF "Robotics Course" entry vs `embedded-robotics.md` LeRobot entry — dedupe on next pass.
+- begin.re — beginner RE challenge site; verify it's still alive before promoting. `sec` `re`
+- RE4B / challenges.re (Dennis Yurichev) — free "Reverse Engineering for Beginners" book + challenges; pin the canonical download URL (beginners.re). `sec` `re`
+- 0xMR-robot's "Ultimate Resource List for Malware Analysis & RE" — meta-list candidate; skim for entries we're missing. `sec` `meta`
+- Roppers Academy — free security-fundamentals curriculum; vet depth vs OverTheWire/pwn.college. `sec`
+- HackSys Extreme Vulnerable Driver (HEVD) — deliberately-vulnerable Windows kernel driver for kernel-exploit practice. `sec` `windows`
+- 8ksec.io — ARM/mobile exploit-dev courses; vet free vs paid. `sec` `arm`
+- Guided Hacking — game-hacking/RE learning platform; vet quality. `sec` `re`

@@ -41,6 +41,12 @@
 - [Computerphile](https://www.youtube.com/@Computerphile) — breadth: crypto, memory, protocols, with guest experts. `cs`
 - [DEF CON Conference](https://www.youtube.com/@DEFCONConference) — full talk archive. `sec`
 - [Chaos Computer Club (CCC)](https://www.youtube.com/@cccen) — 37c3 etc.; deep systems + society talks. `sec`
+- [stacksmashing](https://www.youtube.com/@stacksmashing) — Ghidra/RE adventures and hardware hacking (dumps, Game Boys, Apple silicon); makes RE feel like play. `sec` `re`
+- [OALabs](https://www.youtube.com/@OALabs) — live malware unpacking and C2 extraction; their lab-setup tutorial is the standard starting config. `sec` `malware`
+- [IppSec](https://www.youtube.com/@ippsec) — methodical HackTheBox walkthroughs; "then I watched IppSec" is half of every OSCP success story. `sec`
+- [John Hammond](https://www.youtube.com/@_JohnHammond) — prolific CTF walkthroughs + malware analysis; clear teaching voice. `sec`
+- [HuskyHacks](https://www.youtube.com/@HuskyHacks) — malware analysis & offensive tooling; the free PMAT course preview lives here. `sec` `malware`
+- [gamozolabs](https://www.youtube.com/@gamozolabs) — long-form live fuzzing and vuln research; watch a researcher actually work. `sec` `fuzzing`
 
 ## CS foundations / visualization
 
@@ -87,3 +93,7 @@
 - "Meeting C++ 2025 playlist" — vet new talks.
 - Optiver/IMC/HRT public tech talks — vet for low-latency section.
 - ACCU conference talks (Julius Zukauskas on throughput/latency, ACCU 2025). `cpp` `perf`
+- PwnFunction — animated security explainers (inactive ~2021, archive gold); pin canonical channel. `sec`
+- Joe Grand — hardware hacking, DEF CON badges, circuit-board archaeology. `hardware` `sec`
+- MalwareTech — malware/RE series from the WannaCry-fame researcher. `sec` `malware`
+- REcon talk archive — conference ended, but the archive is worth mining (Blazytko et al). `sec` `re`
