@@ -84,6 +84,15 @@
 - [Brian Krebs — Krebs on Security](https://krebsonsecurity.com/) — cybercrime investigations; consistently HN's top blogger. `sec`
 - [Troy Hunt](https://www.troyhunt.com/) — breaches, web security, Have I Been Pwned. `sec`
 - [Bruce Schneier — Schneier on Security](https://www.schneier.com/) — security thinking beyond the bits. `sec`
+- [Google Project Zero](https://projectzero.google/) — elite 0-day research with full technical writeups (browsers, kernels, phones) plus the in-the-wild 0-day tracker. `sec` `re`
+- [Trail of Bits](https://blog.trailofbits.com/) — binary analysis, fuzzing, symbolic execution, crypto engineering; the consultancy that ships its homework (CTF Field Guide people). `sec` `re`
+- [Quarkslab](https://blog.quarkslab.com/) — RE, obfuscation and program-analysis deep dives; hardware/software security research from the IRMAP people. `sec` `re`
+- [secret.club](https://secret.club/) — "We break software": deobfuscation, virtualization-based protections, anti-cheat reversing (BattlEye), UEFI internals; peak RE nerdery. `sec` `re`
+- [RET2 Systems](https://blog.ret2.io/) — exploit-dev writeups with production polish (original-Xbox JTAG, Pwn2Own Sonos Era 300); they also run the pwn.collab training. `sec` `exploitation`
+- [Tim Blazytko — synthesis.to](https://synthesis.to/) — deobfuscation research made practical: MBA obfuscation, VM-based protections, msynth, agentic RE pipelines; REcon regular. `sec` `re`
+- [0xPat](https://0xpat.github.io/) — terse series on malware development & anti-analysis (obfuscation, anti-disassembly, LLVM tricks) — teaches RE by showing what it's up against. `sec` `malware`
+- [0xdf hacks stuff](https://0xdf.gitlab.io/) — HTB/CTF walkthroughs and malware analysis at real depth; the written companion to IppSec. `sec`
+- [tl;dr sec (Clint Gibler)](https://tldrsec.com/) — weekly newsletter; the highest signal-to-noise digest of security/AppSec/AI-security links. `sec` `newsletter`
 
 ## Unverified — to vet
 
@@ -92,3 +101,6 @@
 - Latacora blog — https://www.latacora.com/blog/ — security engineering essays. Candidate for `sec`.
 - Regehr (John Regehr) — https://blog.regehr.org/ — compilers, UB, C++ correctness. Candidate for `compilers` `cpp`.
 - Tipsy? / codebrowser-related… *(placeholder)*
+- SentinelLabs / Securelist / Unit 42 — vendor threat-intel blogs; each does strong malware deep-dives — pick one to represent the category. `sec` `malware`
+- Azeria Labs blog — ARM RE/exploit-dev posts if we want it alongside the tutorials entry in `learning.md`. `sec` `arm`
+- LiveOverflow's written site (liveoverflow.com) — series that complement the channel already in `youtube.md`. `sec`
